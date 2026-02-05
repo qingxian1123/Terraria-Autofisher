@@ -1,0 +1,13 @@
+[project]
+name = "autofisher"
+version = "0.1.0"
+description = "autofish Tool"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "numpy<2.0.0",
+    "pyautogui>=0.9.54",
+    "pyinstaller>=6.18.0",
+    "scipy>=1.17.0",
+    "soundcard>=0.4.5",
+]
