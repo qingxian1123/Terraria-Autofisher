@@ -1,0 +1,78 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Test and type-check caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+.tox/
+.nox/
+
+# Virtual environments and local package caches
+.venv/
+venv/
+env/
+.uv-cache/
+.nuget/
+.dotnet-home/
+
+# PyInstaller / packaging output
+build/
+dist/
+*.egg
+*.manifest
+*.spec
+!TerrariaAutoFisher.spec
+
+# .NET build output (injector and research tools)
+[Bb]in/
+[Oo]bj/
+injector/runtime*/
+*.user
+*.suo
+*.userosscache
+*.pdb
+*.dll
+*.exe
+*.cache
+project.lock.json
+artifacts/
+
+# Injector startup diagnostics written next to a copied payload
+startup.status
+*.status
+
+# Research-only third-party dumps
+research/vgamepad-*/
+research/vgamepad-*.tar.gz
+
+# IDE and OS
+.vs/
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+[Dd]esktop.ini
+
+# Logs and local temp files
+*.log
+*.tmp
+*.bak
+~$*
+.env
+.env.*
